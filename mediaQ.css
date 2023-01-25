@@ -1,0 +1,388 @@
+/* responsive breakpoint */
+/* tablet */
+@media screen and (min-width: 1920px) {
+  .tulisan {
+    font-size: 175%;
+  }
+  #smile {
+    font-size: 40px;
+  }
+  .nama2 {
+    font-size: 250%;
+  }
+  .tulisan2 {
+    font-size: 200%;
+  }
+  .certi2 {
+    font-size: 250%;
+  }
+  .card p {
+    width: 300px;
+    font-size: 20px;
+    margin-top: 250px;
+  }
+  .card {
+    width: 300px;
+    height: 230px;
+  }
+  .card a {
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(500px);
+  }
+  .tema {
+    width: 400px;
+  }
+  .skill {
+    width: 800px;
+    height: 500px;
+  }
+
+  .skill svg {
+    width: 30px;
+    height: 30px;
+  }
+  .skill li {
+    font-size: 40px;
+  }
+  .skill p {
+    font-size: 25px;
+    margin-left: 110px;
+  }
+  footer {
+    height: 10vh;
+  }
+  .submit {
+    font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .tulisan {
+    width: 80%;
+    float: none;
+    /* margin: 15vh 5vw 15vh 5vw; */
+  }
+  .cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .container {
+    max-width: 100%;
+  }
+  .nama {
+    font-size: 2vw;
+    height: 8vh;
+    margin-top: 3vh;
+  }
+  ul {
+    font-size: 2.5vh;
+  }
+  li {
+    margin: 2vh;
+  }
+
+  .email {
+    font-size: 1.2vh;
+  }
+  .email a svg {
+    width: 4vh;
+    height: 4vh;
+  }
+  .tulisan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    flex-direction: column;
+    margin: 15vh 0;
+  }
+  .cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* /* float: none; */
+  }
+  header {
+    position: absolute;
+    left: -100%;
+  }
+  main {
+    width: 100%;
+    left: 0;
+  }
+  .cover {
+    width: 100%;
+  }
+  .tombol {
+    display: flex;
+  }
+  .submit {
+    font-size: 100%;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .submit {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .tulisan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    font-size: 1rem;
+    width: 80vw;
+    height: 80vh;
+  }
+  .nama {
+    font-size: 2.5vh;
+    height: 8vh;
+    margin-top: 3vh;
+  }
+  ul {
+    font-size: 2.5vh;
+  }
+  li {
+    margin: 2vh;
+  }
+  a::before {
+    width: 5vh;
+  }
+  .innermenu a:hover::before {
+    padding-left: 5vh;
+  }
+
+  .navbar:before {
+    padding-left: 5vh;
+  }
+
+  .email {
+    font-size: 1.2vh;
+  }
+  .email a svg {
+    width: 4vh;
+    height: 4vh;
+  }
+  .nama2 {
+    font-size: 1.5em;
+    height: 3vw;
+  }
+
+  .tulisan2 {
+    flex-direction: column;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 1.4;
+  }
+  .b {
+    border-right: none;
+  }
+  .tulisan2 p {
+    padding: 30px;
+  }
+
+  .skills h1 {
+    font-size: 4em;
+  }
+  .skills h3 {
+    font-size: 2em;
+  }
+  .skill {
+    width: 70%;
+    height: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .skill ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+  }
+  .skill ul div {
+    width: 300px;
+  }
+  .skill li {
+    font-size: 25px;
+  }
+  .skill li p {
+    font-size: 13;
+  }
+  .jud h1 {
+    margin-top: 30px;
+    font-size: 1.5em;
+  }
+  label {
+    font-size: 2.5vh;
+  }
+  .submit {
+    width: 30%;
+    border-radius: 20px;
+    font-size: 100%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body {
+    max-width: 100vw;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .nama {
+    font-size: 2.5vh;
+    height: 8vh;
+    margin-top: 3vh;
+  }
+  ul {
+    font-size: 2.5vh;
+  }
+  li {
+    margin: 2vh;
+  }
+  /* a::before {
+    width: 4vh;
+  }
+  .innermenu a:hover::before {
+    padding-left: 4vh;
+  } */
+
+  .email {
+    font-size: 1vh;
+  }
+  .email a svg {
+    width: 3vh;
+    height: 3vh;
+  }
+
+  main {
+    width: 100%;
+  }
+  .tombol {
+    position: absolute;
+  }
+  .skill ul div {
+    width: 300px;
+  }
+  .tulisan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: none;
+    font-size: 0.8rem;
+    width: 80vw;
+    height: 80vh;
+    margin: 0;
+  }
+  .nama2 {
+    font-size: 2em;
+    margin: 0;
+  }
+  .cover {
+    /* width: 100vw;
+    margin: 0; */
+  }
+  .nama2 {
+    font-size: 1.7em;
+    height: 2vh;
+  }
+  .tulisan2 {
+    line-height: 1;
+    word-spacing: 1px;
+  }
+
+  .certi2 {
+    font-size: 1.7rem;
+  }
+  .project h1 {
+    font-size: 2em;
+  }
+  .project h3 {
+    font-size: 1.5em;
+  }
+  .skill li {
+    font-size: 25px;
+  }
+  .skill p {
+    font-size: 15px;
+  }
+  .judullg h1 {
+    font-size: 2.5em;
+  }
+  .judullg h3 {
+    font-size: 1.7em;
+  }
+  .jud h1 {
+    margin-top: 20px;
+    font-size: 1.2em;
+  }
+  label {
+    font-size: 2vh;
+  }
+  .submit {
+    width: 30%;
+    border-radius: 20px;
+    font-size: 100%;
+  }
+  .card p {
+    display: inline-block;
+    width: 200px;
+    font-size: 15px;
+    margin-top: 150px;
+    text-align: center;
+  }
+  .card {
+    margin-top: 80px;
+    position: relative;
+    width: 200px;
+    height: 150px;
+    transform-style: preserve-3d;
+    animation: rotate 40s linear infinite;
+  }
+
+  @keyframes rotate {
+    0% {
+      transform: perspective(1000px) rotateY(0deg);
+    }
+    100% {
+      transform: perspective(1000px) rotateY(-360deg);
+    }
+  }
+
+  .card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transform: rotateY(calc(var(--i) * 45deg)) translateZ(300px);
+  }
+
+  .card a img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 2s;
+  }
+
+  .card:hover {
+    animation-play-state: paused;
+  }
+  .tombol {
+    position: fixed;
+  }
+}

@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid pink; */
+}
+/* test jangan lagi */
+body {
+  background-color: #e6e8e6;
+  /* background-color: #010101; */
+}
+
+/* awal header */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 30px;
+}
+
+.img-ct {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: url("img/foto2.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.judul {
+  display: flex;
+  font-size: 30px;
+  height: 100px;
+  color: rgba(223, 86, 70);
+  font-family: "Moon Dance", cursive;
+}
+.satu {
+  align-self: flex-start;
+}
+
+.dua {
+  align-self: flex-end;
+}
+
+h1 .judul {
+  padding: 0px;
+}
+
+/* content */
+.suit {
+  margin: auto;
+  width: 60vw;
+  height: 70 auto;
+  flex-direction: column;
+  border: 4px solid #e6e8e6;
+  display: flex;
+  background-color: rgba(223, 86, 70, 0.8);
+  border-radius: 20px;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 20px 10px 14px -3px rgba(0, 0, 0, 0.5);
+}
+
+li button {
+  font-size: 250%;
+  outline: none;
+  padding: 10px;
+  border: solid 0 #e6e8e6;
+  border-radius: 50%;
+  background-color: rgb(255, 137, 124);
+  box-shadow: 0 10px 14px -3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: 300ms ease;
+}
+
+li button:hover {
+  background-color: rgb(250, 172, 164);
+  transform: scale(1.1);
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+.pilihan {
+  width: 80%;
+  height: auto;
+  margin: 50px;
+}
+.content {
+  width: 80%;
+  height: 70%;
+  margin: 50px;
+}
+
+.hasil {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 50px;
+}
+.tampilan {
+  display: flex;
+  height: 60%;
+  justify-content: space-evenly;
+}
+
+.tampilan {
+  height: 20%;
+  margin-top: 20px;
+}
+p {
+  font-size: 70px;
+}
+
+#user {
+  width: 100px;
+  height: 100px;
+  border: solid 4px #e6e8e6;
+  font-size: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+#computer {
+  width: 100px;
+  height: 100px;
+  border: solid 4px #e6e8e6;
+  border-radius: 20px;
+  font-size: 400%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1920px) {
+  .img-ct {
+    width: 200px;
+    height: 200px;
+    margin: 0 50px;
+  }
+  .judul {
+    font-size: 40px;
+    height: 150px;
+    margin: 0 50px;
+  }
+  li button {
+    font-size: 300%;
+  }
+  .hasil {
+    height: 50%;
+    font-size: 70px;
+  }
+  p {
+    font-size: 80px;
+  }
+  #user {
+    width: 125px;
+    height: 125px;
+    font-size: 500%;
+  }
+  #computer {
+    width: 125px;
+    height: 125px;
+    font-size: 500%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  p {
+    font-size: 30px;
+    align-self: center;
+  }
+  #user {
+    width: 70px;
+    height: 70px;
+    font-size: 200%;
+  }
+  #computer {
+    width: 70px;
+    height: 70px;
+    font-size: 200%;
+  }
+  .hasil h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .img-ct {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: url("img/foto2.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .judul {
+    font-size: 20px;
+    height: 75px;
+  }
+  .suit {
+    margin-top: 30px;
+    width: 80vw;
+  }
+  li button {
+    font-size: 200%;
+  }
+}
